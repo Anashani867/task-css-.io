@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+.item1 { grid-area: header;  }
+.item2 { grid-area: sidebar; }
+.item3 { grid-area: nav; }
+.item4 { grid-area: article; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas: 
+        "header header header header "
+        "sidebar nav nav   nav"
+        "sidebar  article  article article "
+        "footer footer footer  footer";
+  padding: 10px;
+  margin: 10px;
+}
+
+.grid-container > div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+  margin: 5px;
+}
+</style>
+</head>
+<body>
+
+
+<div class="grid-container">
+  <div class="item1" style="background-color: yellow;">Header</div>
+  <div class="item2" style="background-color: brown;">sidebar</div>
+  <div class="item3" style="background-color: aqua;">nav</div>  
+  <div class="item4" style="background-color: gray;">article  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, aliquid quo sapiente expedita ducimus, earum dicta impedit rerum atque facere soluta eligendi optio minima tempore corrupti non laudantium quidem aliquam.</div>
+  <div class="item5" style="background-color: darkslateblue;">Footer</div>
+</div>
+
+</body>
+</html>
+
+

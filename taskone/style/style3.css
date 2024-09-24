@@ -1,0 +1,17 @@
+body{
+
+    background-color: aquamarine;
+}
+
+.bc{
+    color: brown;
+    background-color: bisque;
+}
+.bc1{
+    color: rgb(236, 236, 236);
+    background-image: url("/img/image.png");
+}
+.bc2{
+    color: rgb(185, 180, 180);
+    background-image: url("/img/image.png");
+}

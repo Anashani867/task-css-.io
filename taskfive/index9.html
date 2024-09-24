@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .nav{
+        height: 10px;
+    }
+
+ 
+
+
+
+    .hed ul, .had1 ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 10;
+    padding: 0;
+    position: absolute;
+}
+
+    .hed li{
+        margin-left: 10px;
+    }
+    .had1 li{
+        position: relative;
+        margin-left: 10px;
+        left: 1000%;
+   }
+   a{
+    text-decoration: none;
+    color: black;
+}
+main{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.im ,.sarch{
+    position: relative;
+    top: 200px;
+}
+
+.btn
+{position: relative;
+    top: 220px;
+
+}
+.btn button{
+    border: 0cap;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+
+footer{
+   
+    position: relative;
+    top: 420px;
+
+}
+
+.bak {
+
+    border: 0px  solid black; 
+    background-color: darkgrey;
+       height: 50px;
+       width: 1250px;
+}
+   
+</style>
+<body>
+    <header class="nav">
+        <div class="hed">
+            <ul>
+                <li><a href="#">app</a></li>
+                <li>store</li>
+            </ul>
+        </div>
+        <div class="had1">
+            <ul>
+                <li>profile</li>
+                <li>sitting</li>
+            </ul> 
+        </div>
+
+    </header>
+
+    <main >
+        <div class="im"><img src="img/image.png" alt=""></div>
+        <div class="sarch"><input type="text" style="width: 300px; border: 1PX solid gray;   border-radius: 20px;
+"></div>
+
+<div class="btn">
+    <button>do the thing</button>
+    <button>do the nother thing</button>
+</div>
+    </main>
+
+
+    <footer>
+        <div class="bak">
+
+            <div class="hed">
+            <ul>
+                <li>Advertising</li>
+                <li>Business</li>
+            </ul>
+             </div>
+          <div class="had1">
+            <ul>
+                <li>privacy</li>
+                <li>Terms</li>
+            </ul> 
+           </div>
+    </div>
+    </footer>
+</body>
+</html>

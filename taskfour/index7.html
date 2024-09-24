@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.container {
+    position: relative;
+            width: 200px;
+            height: 200px;}
+
+.brown-box {
+  position: absolute;
+  z-index: 1;
+ width: 35%;
+ height: 60px;
+ top: 0;
+ left: 0;
+}
+
+.blue-box {
+  position: absolute;
+  z-index: 2; /* gray box will be above both green and black box */
+  height: 60px;  
+  width: 35%;
+  top: 20px;
+  left: 20px;
+}
+.yeloow-box {
+  position: absolute;
+  z-index: 3; /* gray box will be above both green and black box */
+  height: 60px;  
+  width: 35%;
+  top: 40px;
+  left: 40px;
+}
+
+.green-box {
+  position: absolute;
+  z-index: 4; /* green box will be above black box */
+  width: 35%;
+  height: 60px;
+  top: 20px;
+  left: 10px;
+}
+</style>
+</head>
+<body>
+
+
+<div class="container">
+  <div class="brown-box"> <img src="img/image.png" alt=""></div>
+  <div class="blue-box"> <img src="img/image.png" alt=""></div>
+  <div class="yeloow-box"> <img src="img/image.png" alt=""></div>
+  <div class="green-box"><img src="img/image.png" alt=""></div>
+</div>
+
+</body>
+</html>
+
+
